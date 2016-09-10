@@ -22,5 +22,5 @@ Options
 ### Integration with PokemonGoMap
 
 ```bash
-python runserver.py ...args... --webhook http://localhost:[PORT] 
+python runserver.py ...args... --webhook http://localhost:[PORT] --wh-threads 10 --webhook-updates-only 
 ```
